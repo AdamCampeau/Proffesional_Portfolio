@@ -191,6 +191,16 @@ img{
     float: right;
  }
  
+ a.three:hover + img {
+  display: block;
+  height: auto;
+  width: auto;
+  max-height: auto;
+  max-width: 50%;
+  object-fit: contain;
+  float: right;
+}
+
 a.project {
     color:var(--secondary-color)
 }
